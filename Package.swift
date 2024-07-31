@@ -13,7 +13,9 @@ let package = Package(
     products: [
         .library(
             name: "PocketSVG",
-            targets: ["PocketSVG"])
+            type: .dynamic,
+            targets: ["PocketSVG"]
+        )
     ],
     dependencies: [
     ],
